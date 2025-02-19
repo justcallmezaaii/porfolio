@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->  
 <br />  
 <div align="center">  
-<img src=".png" alt="Logo" width="150" height="150">  
+<img src="src/logo4.webp" alt="Logo" width="150" height="150">  
 </a>  
   
 <h3 align="center"></h3>  
@@ -10,7 +10,7 @@
  
 <br />  
 <br />  
-<a href="[https://justcallmezaaii.github.io/portfolio](https://justcallmezaaii.github.io/portfolio)">View Demo</a>  
+<a href="[https://justcallmezaaii.github.io/portfolio]">View Demo</a>  
 </p>  
 </div>  
 
