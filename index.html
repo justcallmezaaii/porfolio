@@ -1,10 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
-    <title>title</title>
+    <meta charset="UTF-8"/>
+    <title>Zairen's Computer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href=".ico">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+        @import "tailwindcss";
+        body{
+        font-family: 'SF Pro Display', sans-serif;
+        background-image: url(/src/macos_walp5.jpg);
+        background-size:cover;
+        background-position: center;
+        }
+    </style>
 </head>
-<body>
+<body class="h-screen w-screen bg-macos-wallpaper flex flex-col justify-between">
+    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white/20 backdrop-blur-xl p-3 rounded-3xl flex space-x-6 shadow-2xl  border-white/30">
+        <img src="https://cdn0.iconfinder.com/data/icons/apple-apps/100/Apple_Photos-512.png" alt="App 1" class="w-14 h-14">
+        <img src="https://icons.veryicon.com/png/Phone/iOS7%20Style/Safari.png" alt="App 2" class="w-14 h-14">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Phone_iOS.png" alt="App 2" class="w-14 h-14">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-apple-notes-icon-download-in-svg-png-gif-file-formats--logo-note-apps-pack-user-interface-icons-493153.png?f=webp&w=256" alt="App 2" class="w-14 h-14">
+       </div>
+
+       <div class="absolute top-20 right-10 flex flex-col space-y-4">
+        <div class="text-center">
+            <img src="https://www.macworld.com/wp-content/uploads/2023/12/folder-icon-macos.png?w=1024" class=" h-16 mx-auto" alt="Folder">
+            <p class="text-white mt-2 text-sm">My Projects</p>
+        </div>
+
+    </div>
+    <div class="fixed top-0 w-full flex justify-between bg-gray-900 bg-opacity-75 text-white text-sm px-4 py-1">
     
+            <span class="mr-4"></span>
+            <span class="font-bold"> Finder</span>
+            <span class="ml-4">File</span>
+            <span class="ml-4">Edit</span>
+            <span class="ml-4">View</span>
+            <span class="ml-4">Go</span>
+            <span class="ml-4">Windows</span>
+            <span class="ml-4">Help</span>
+            <span class="ml-4">Wed , Feb 19 11:17pm</span>
+        </div>
+    </div>
+       <div class="absolute top-16 left-1/4 w-1/2 bg-white shadow-lg rounded-md">
+        <div class="flex items-center justify-between bg-gray-200 px-3 py-1 rounded-t-md">
+          <div class="flex space-x-2">
+            <span class="w-3 h-3 bg-red-500 rounded-full inline-block"></span>
+            <span class="w-3 h-3 bg-yellow-500 rounded-full inline-block"></span>
+            <span class="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
+          </div>
+          <div>Zairen's Computer</div>
+          <div></div> 
+        </div>
+        <div class="p-4 text-center">
+         WELCOME TO MY PORTFOLIO
+        
+        </div>
+       </div>
 </body>
 </html>
